@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: kafkaConsumer
+kafka:
+  consumer:
+    id: ${random.UUID}
+    group-id: group_id
+    auto-offset-reset: earliest
+    key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    value-deserializer : org.apache.kafka.common.serialization.JsonDesrializer
+  Listener :
+    type : batch
+  topic:
+    category_topic
