@@ -22,3 +22,4 @@
 3. KAFKA Consumer Service
     - Subscribe to TOPIC - **category_topic** using KAFKA Stream , consume all Category data and Process/Grouping  each category and Value .
     - each Summary category along with total Value will get insert into SUMMARY table.
+    - Database used here is in memory H2 Database.
