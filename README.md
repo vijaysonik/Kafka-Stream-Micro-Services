@@ -36,6 +36,7 @@
       - It will insert Summary of Category data in Summary table.
 
       
+      ![image](https://user-images.githubusercontent.com/11199674/140819635-008e0369-8284-4ab6-8093-f7cc66eeadda.png)
 
 
 
