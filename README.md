@@ -23,3 +23,20 @@
     - Subscribe to TOPIC - **category_topic** using KAFKA Stream , consume all Category data and Process/Grouping  each category and Value .
     - each Summary category along with total Value will get insert into SUMMARY table.
     - Database used here is in memory H2 Database.
+    - When starting KAFKA Consumer, H@ Database table Summary is Empty
+
+   ![image](https://user-images.githubusercontent.com/11199674/140743055-362456ed-113d-4123-9884-c2f25eee0c9d.png)      
+
+     - Once KAFKA Procedure push the data into Topic, Data get inserted in Summary table.
+
+     - Load CSV File and Click on Upload and Save
+
+      ![image](https://user-images.githubusercontent.com/11199674/140745521-861e6c84-f6c5-4291-b9b2-0bcdaca84d50.png)
+      
+      - It will insert Summary of Category data in Summary table.
+
+      
+
+
+
+
